@@ -14,7 +14,7 @@ units
 time
 synphot
 dust extinction
-modeling 
+modeling
 convolution
 gala
 vo conesearch
@@ -54,7 +54,7 @@ astrodynamics
 stellar photometry
 stellar physics
 radio astronomy
-astrostatistics 
+astrostatistics
 x-ray astronomy
 galactic astronomy
 galaxy dynamics
@@ -63,5 +63,5 @@ physics
 observational astronomy
 astrometry
 extinction
-polarimetry 
+polarimetry
 IR and optical astronomy

@@ -1,4 +1,4 @@
-import os 
+import os
 import sys
 
 slug = sys.argv[1]
@@ -16,19 +16,19 @@ if book is True:
     os.system(command)
     # build pdf
     command = "jb build . --config _config.yaml --toc _toc.yml --builder pdfhtml"
-    os.system(command)    
+    os.system(command)
 
     # copy build outputs to 'html' dir
-    command = f"cp -r '_build/html' html"
+    command = "cp -r '_build/html' html"
     os.system(command)
-    command = f"cp '_build/pdf/book.pdf' html"    
+    command = "cp '_build/pdf/book.pdf' html"
     os.system(command)
 
 else:
     # build single notebook
     command = f"jb build {slug}.ipynb --config _config.yml"
     os.system(command)
-    # build pdf 
+    # build pdf
     command = f"jb build {slug}.ipynb --config _config.yml --builder pdfhtml"
     os.system(command)
 
