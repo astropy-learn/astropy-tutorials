@@ -5,6 +5,7 @@ slug = sys.argv[1]
 
 book = False
 if os.path.isfile("index.md") and os.path.getsize("index.md") > 0:
+    print("index.md exists and is not empty --> assuming this is a book rather than a single notebook")
     book = True
 
 if book is True:
@@ -12,10 +13,10 @@ if book is True:
     command = "jb toc from-project . -f jb-book -i index -e .md -e .ipynb > _toc.yml"
     os.system(command)
     # build book
-    command = "jb build . --config _config.yaml --toc _toc.yml"
+    command = "jb build . --config _config.yml --toc _toc.yml"
     os.system(command)
     # build pdf
-    command = "jb build . --config _config.yaml --toc _toc.yml --builder pdfhtml"
+    command = "jb build . --config _config.yml --toc _toc.yml --builder pdfhtml"
     os.system(command)
 
     # copy build outputs to 'html' dir
