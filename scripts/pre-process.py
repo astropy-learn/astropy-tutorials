@@ -7,7 +7,7 @@ with open("metadata.yml", "r") as f:
     meta = yaml.load(f, Loader=yaml.SafeLoader)
 
 # populate _config with tutorial-specific metadata
-with open("astropy-tutorials/scripts/_config.yml") as f:
+with open("astropy-tutorials/_config.yml") as f:
     cfg = yaml.load(f, Loader=yaml.SafeLoader)
 
 cfg["title"] = meta["title"]
