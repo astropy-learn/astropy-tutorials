@@ -9,9 +9,6 @@ if os.path.isfile("index.md") and os.path.getsize("index.md") > 0:
     book = True
 
 if book is True:
-    # create book's table of contents
-    command = "jb toc from-project . -f jb-book -i index -e .md -e .ipynb > _toc.yml"
-    os.system(command)
     # build book
     command = "jb build . --config _config.yml --toc _toc.yml"
     os.system(command)
