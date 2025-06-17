@@ -10,14 +10,12 @@ For developers, this repo also contains scripts and resources used across all tu
 - color-excess [![Build notebook](https://github.com/astropy-learn/tutorial--color-excess/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--color-excess/actions/workflows/build.yml)
 - FITS-cubes [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-cubes/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-cubes/actions/workflows/build.yml)
 - FITS-header [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-header/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-header/actions/workflows/build.yml)
-- FITS-images [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-images/actions/workflows/build.yml/badge.svg)](https://
-github.com/astropy-learn/tutorial--FITS-images/actions/workflows/build.yml)
+- FITS-images [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-images/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-images/actions/workflows/build.yml)
 - FITS-tables [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-tables/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-tables/actions/workflows/build.yml)
 - gaia-galactic-orbits [![Build notebook](https://github.com/astropy-learn/tutorial--gaia-galactic-orbits/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--gaia-galactic-orbits/actions/workflows/build.yml)
 - plot-catalog [![Build notebook](https://github.com/astropy-learn/tutorial--plot-catalog/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--plot-catalog/actions/workflows/build.yml)
 - position-velocity-diagrams [![Build notebook](https://github.com/astropy-learn/tutorial--position-velocity-diagrams/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--position-velocity-diagrams/actions/workflows/build.yml)
-- quantities [![Build notebook](https://github.com/astropy-learn/tutorial--quantities/actions/workflows/build.yml/badge.svg)](https://github.
-com/astropy-learn/tutorial--quantities/actions/workflows/build.yml)
+- quantities [![Build notebook](https://github.com/astropy-learn/tutorial--quantities/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--quantities/actions/workflows/build.yml)
 - redshift-plot [![Build notebook](https://github.com/astropy-learn/tutorial--redshift-plot/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--redshift-plot/actions/workflows/build.yml)
 - spectral-cube-reprojection [![Build notebook](https://github.com/astropy-learn/tutorial--spectral-cube-reprojection/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--spectral-cube-reprojection/actions/workflows/build.yml)
 - spectroscopic-data-reduction-basics [![Build notebook](https://github.com/astropy-learn/tutorial--spectroscopic-data-reduction-basics/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--spectroscopic-data-reduction-basics/actions/workflows/build.yml)
