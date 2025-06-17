@@ -5,7 +5,9 @@ slug = sys.argv[1]
 
 book = False
 if os.path.isfile("index.md") and os.path.getsize("index.md") > 0:
-    print("index.md exists and is not empty --> assuming this is a book rather than a single notebook")
+    print(
+        "index.md exists and is not empty --> assuming this is a book rather than a single notebook"
+    )
     book = True
 
 if book is True:
