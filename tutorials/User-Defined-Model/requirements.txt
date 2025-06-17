@@ -1,5 +1,0 @@
-astropy
-astroquery>=0.4.9  # 2025-02-06 pinned for Gaia column capitalization and `astroquery.sdss.get_spectra` issues
-matplotlib
-numpy
-scipy
