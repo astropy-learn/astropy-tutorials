@@ -25,10 +25,10 @@ repos:
         exclude_types: [csv]
         exclude: '.*\.fits$'
       - id: check-yaml
-      # prevent addition of (presumably data) files >= 1 MB
+      # prevent addition of (presumably data) files >= 10 MB
       # (for such files, see https://learn.astropy.org/contributing/how-to-contribute)
       - id: check-added-large-files
-        args: ["--maxkb=1000"]
+        args: ["--maxkb=10000"]
 
   - repo: https://github.com/kynan/nbstripout
     rev: 0.8.1
