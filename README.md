@@ -4,6 +4,10 @@ This repo is used for discussion of topics relating to Learn Astropy, but not sp
 
 For developers, this repo also contains scripts and resources used across all tutorials - see the [dev guide](https://github.com/astropy-learn/dev-guide).
 
+## Site infrastructure status
+- learn-astropy [![Deploy](https://github.com/astropy-learn/learn-astropy/actions/workflows/deploy.yaml/badge.svg)](https://github.com/astropy-learn/learn-astropy/actions/workflows/deploy.yaml)
+- learn-astropy-librarian [![CI](https://github.com/astropy-learn/learn-astropy-librarian/actions/workflows/ci.yaml/badge.svg)](https://github.com/astropy-learn/learn-astropy-librarian/actions/workflows/ci.yaml)
+
 ## Tutorials build status
 - astropy-coordinates [![Build notebook](https://github.com/astropy-learn/tutorial--astropy-coordinates/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--astropy-coordinates/actions/workflows/build.yml)
 - astropy-modeling [![Build notebook](https://github.com/astropy-learn/tutorial--astropy-modeling/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--astropy-modeling/actions/workflows/build.yml)
