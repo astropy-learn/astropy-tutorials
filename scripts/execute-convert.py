@@ -18,9 +18,7 @@ if book is True:
     command = "jb build . --config _config.yml --toc _toc.yml --builder pdfhtml"
     os.system(command)
 
-    # copy .ipynb and build outputs to 'html' dir
-    command = f"cp '*.ipynb' html"
-    os.system(command)    
+    # copy build outputs to 'html' dir
     command = "cp -r '_build/html' html"
     os.system(command)
     command = "cp '_build/pdf/book.pdf' html"
@@ -34,9 +32,7 @@ else:
     command = f"jb build {slug}.ipynb --config _config.yml --builder pdfhtml"
     os.system(command)
 
-    # copy .ipynb and build outputs to 'html' dir
-    command = f"cp '*.ipynb' html"
-    os.system(command)
+    # copy build outputs to 'html' dir
     command = f"cp -r '_build/_page/{slug}/html' html"
     os.system(command)
     command = f"cp '_build/_page/{slug}/pdf/{slug}.pdf' html"
