@@ -1,0 +1,54 @@
+name: Tutorial submission
+description: Submit a tutorial or set of tutorials to Astropy Learn.
+title: "[New tutorial]: "
+labels: ["content-new", "needs-content-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete all of the below information to submit a tutorial or set of tutorials.
+  - type: input
+    id: tutorial-title
+    attributes:
+      label: Tutorial title    
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Tutorial authors
+      description: Include author names, GitHub usernames and ORCID IDs
+    validations:
+      required: true      
+  - type: input
+    id: requirements
+    attributes:
+      label: Notebook requirements
+      description: Python packages required to run the notebook(s)
+    validations:
+      required: true            
+  - type: textarea
+    id: index-content
+    attributes:
+      label: Summary (if multiple notebooks)
+      description: If you are submitting a set of thematically linked tutorials, please provide a paragraph summarizing all of the notebooks, making clear their sequential order.
+    validations:
+      required: false
+  - type: checkboxes
+    id: check-files
+    attributes:
+      options:
+        - label: The tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them are attached.
+          required: true
+  - type: checkboxes
+    id: check-intro
+    attributes:
+      options:
+        - label: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
+          required: true          
+  - type: checkboxes
+    id: check-coc
+    attributes:
+      options:
+        - label: I am familiar with the Astropy community [code of conduct](https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md) and agree to follow it.
+          required: true                    
