@@ -42,6 +42,14 @@ body:
     validations:
       required: false
   - type: checkboxes
+    id: check-citation
+    attributes:
+      label: Citation
+      description: Check here if you would like the tutorial to be made citable via an upload to [Zenodo](https://zenodo.org/). (If so, be sure to include the authors' ORCID IDs above.)
+      options:
+        - label: Yes, I would like the tutorial to be made citable via Zenodo.
+          required: false
+  - type: checkboxes
     id: check-intro
     attributes:
       label: Introduction format
