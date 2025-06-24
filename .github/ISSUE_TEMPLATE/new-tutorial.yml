@@ -27,7 +27,7 @@ body:
       description: Python packages required to run the notebook(s)
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: ancillary-files
     attributes:
       label: Attach files
