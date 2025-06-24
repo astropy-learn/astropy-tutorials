@@ -27,6 +27,13 @@ body:
       description: Python packages required to run the notebook(s)
     validations:
       required: true
+  - type: input
+    id: ancillary-files
+    attributes:
+      label: Attach files
+      description: Attach the tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them. Note anything about the files that is not clear from the filenames here.
+      validations:
+          required: true
   - type: textarea
     id: index-content
     attributes:
@@ -35,10 +42,10 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: check-files
+    id: check-intro
     attributes:
-      label: Included files
-      description: The tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them are attached.
+      label: Introduction format
+      description: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
       options:
         - label: I confirm.
           required: true
@@ -47,14 +54,6 @@ body:
     attributes:
       label: Contribution guidelines
       description: I am familiar with the Learn Astropy [contributing guidelines](https://learn.astropy.org/contributing/).
-      options:
-        - label: I confirm.
-          required: true
-  - type: checkboxes
-    id: check-intro
-    attributes:
-      label: Introduction format
-      description: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
       options:
         - label: I confirm.
           required: true
