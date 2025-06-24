@@ -32,8 +32,8 @@ body:
     attributes:
       label: Attach files
       description: Attach the tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them. Note anything about the files that is not clear from the filenames here.
-      validations:
-          required: true
+    validations:
+      required: true
   - type: textarea
     id: index-content
     attributes:
