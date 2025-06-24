@@ -10,7 +10,7 @@ body:
   - type: input
     id: tutorial-title
     attributes:
-      label: Tutorial title    
+      label: Tutorial title
     validations:
       required: true
   - type: input
@@ -19,14 +19,14 @@ body:
       label: Tutorial authors
       description: Include author names, GitHub usernames and ORCID IDs
     validations:
-      required: true      
+      required: true
   - type: input
     id: requirements
     attributes:
       label: Notebook requirements
       description: Python packages required to run the notebook(s)
     validations:
-      required: true            
+      required: true
   - type: textarea
     id: index-content
     attributes:
@@ -45,10 +45,10 @@ body:
     attributes:
       options:
         - label: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
-          required: true          
+          required: true
   - type: checkboxes
     id: check-coc
     attributes:
       options:
         - label: I am familiar with the Astropy community [code of conduct](https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md) and agree to follow it.
-          required: true                    
+          required: true
