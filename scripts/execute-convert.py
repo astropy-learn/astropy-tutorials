@@ -1,12 +1,14 @@
 import os
 import sys
+import glob
 
 slug = sys.argv[1]
 
 book = False
-if os.path.isfile("index.md") and os.path.getsize("index.md") > 0:
+notebooks = glob.glob("*.ipynb")
+if len(notebooks) > 1:
     print(
-        "index.md exists and is not empty --> assuming this is a book rather than a single notebook"
+        "More than one .ipynb notebook found --> assuming this is a book rather than a single notebook"
     )
     book = True
 
