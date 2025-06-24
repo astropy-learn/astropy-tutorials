@@ -3,10 +3,6 @@ description: Submit a tutorial or set of tutorials to Astropy Learn.
 title: "[New tutorial]: "
 labels: ["content-new", "needs-content-review"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please complete all of the below information to submit a tutorial or set of tutorials.
   - type: input
     id: tutorial-title
     attributes:
