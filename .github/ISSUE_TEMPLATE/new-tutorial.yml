@@ -3,6 +3,10 @@ description: Submit a tutorial or set of tutorials to Astropy Learn.
 title: "[New tutorial]: "
 labels: ["content-new", "needs-content-review"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete all of the below information to submit a tutorial or set of tutorials. Thanks in advance for your contribution to Astropy Learn!
   - type: input
     id: tutorial-title
     attributes:
@@ -33,18 +37,32 @@ body:
   - type: checkboxes
     id: check-files
     attributes:
+      label: Included files
+      description: The tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them are attached.
       options:
-        - label: The tutorial notebook(s) and any necessary ancillary files (e.g., data files) needed to run them are attached.
+        - label: I confirm.
+          required: true
+  - type: checkboxes
+    id: check-guidelines
+    attributes:
+      label: Contribution guidelines
+      description: I am familiar with the Learn Astropy [contributing guidelines](https://learn.astropy.org/contributing/).
+      options:
+        - label: I confirm.
           required: true
   - type: checkboxes
     id: check-intro
     attributes:
+      label: Introduction format
+      description: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
       options:
-        - label: The tutorial(s) contain a complete Introduction cell that includes the tutorial title, author list, learning goals, keywords, companion content if relevant, and a summary - following the format in the [contributing guidelines](https://learn.astropy.org/contributing/).
+        - label: I confirm.
           required: true
   - type: checkboxes
     id: check-coc
     attributes:
+      label: Code of Conduct
+      description: I am familiar with the Astropy community [code of conduct](https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md) and agree to follow it.
       options:
-        - label: I am familiar with the Astropy community [code of conduct](https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md) and agree to follow it.
+        - label: I confirm.
           required: true
