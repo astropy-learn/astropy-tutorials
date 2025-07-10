@@ -18,3 +18,5 @@ launch_buttons:
 sphinx:
   config:
     html_show_copyright: false
+    nb_execution_raise_on_error: true # raise error if a notebook cell fails to execute
+    nb_execution_timeout: 600 # max time [s] to wait for a cell to execute; raises error if exceeded
