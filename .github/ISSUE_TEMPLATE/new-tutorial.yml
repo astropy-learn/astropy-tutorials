@@ -27,7 +27,7 @@ body:
       description: Python packages required to run the notebook(s)
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Description
@@ -44,8 +44,8 @@ body:
   - type: textarea
     id: index-content
     attributes:
-      label: Summary (if multiple notebooks)
-      description: If you are submitting a set of thematically linked tutorials, please provide a paragraph summarizing all of the notebooks, making clear their sequential order.
+      label: Book summary (if multiple notebooks)
+      description: If you are submitting a set of thematically linked tutorials (called a 'book'), please provide a paragraph summarizing all of the notebooks, making clear their sequential order.
     validations:
       required: false
   - type: checkboxes
