@@ -28,3 +28,4 @@ For developers, this repo also contains scripts and resources used across all tu
 - UVES [![Build notebook](https://github.com/astropy-learn/tutorial--UVES/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--UVES/actions/workflows/build.yml)
 - vo [![Build notebook](https://github.com/astropy-learn/tutorial--vo/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--vo/actions/workflows/build.yml)
 - wcs-celestial-coordinates [![Build notebook](https://github.com/astropy-learn/tutorial--wcs-celestial-coordinates/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--wcs-celestial-coordinates/actions/workflows/build.yml)
+- working-with-large-FITS-files [![Build notebook](https://github.com/astropy-learn/tutorial--working-with-large-FITS-files/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--working-with-large-FITS-files/actions/workflows/build.yml)
