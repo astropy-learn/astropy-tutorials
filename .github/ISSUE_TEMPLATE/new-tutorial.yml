@@ -13,14 +13,14 @@ body:
       label: Tutorial title
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: authors
     attributes:
       label: Tutorial authors
       description: Include author names, GitHub usernames and ORCID IDs
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: requirements
     attributes:
       label: Notebook requirements
