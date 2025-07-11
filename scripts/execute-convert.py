@@ -21,9 +21,7 @@ def run_command(command, verbose=0):
 book = False
 notebooks = glob.glob("*.ipynb")
 if len(notebooks) > 1:
-    print(
-        "More than one .ipynb notebook found --> assuming this is a book"
-    )
+    print("More than one .ipynb notebook found --> assuming this is a book")
     book = True
 
 if book is True:
