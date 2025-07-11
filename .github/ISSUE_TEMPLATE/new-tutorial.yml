@@ -27,6 +27,13 @@ body:
       description: Python packages required to run the notebook(s)
     validations:
       required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Provide a summary of the tutorial.
+    validations:
+      required: true
   - type: textarea
     id: ancillary-files
     attributes:
