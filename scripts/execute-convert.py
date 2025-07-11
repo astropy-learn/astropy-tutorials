@@ -5,7 +5,7 @@ import glob
 slug = sys.argv[1]
 
 
-def run_command(command, verbose=0):
+def run_command(command, verbose=1):
     try:
         result = subprocess.run(command, check=True, capture_output=True, text=True)
     except (
