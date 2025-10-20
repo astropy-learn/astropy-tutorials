@@ -1,5 +1,2 @@
 jupyter-book>=1.0.4
 pre-commit
-playwright
-pre-commit
-pyppeteer
