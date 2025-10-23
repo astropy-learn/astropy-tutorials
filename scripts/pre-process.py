@@ -12,7 +12,8 @@ with open("astropy-tutorials/_config.yml") as f:
 
 cfg["title"] = meta["title"]
 cfg["author"] = authors
-cfg["repository"]["url"] = f"https://github.com/astropy-learn/{meta['source']}"
+# cfg["repository"]["url"] = f"https://github.com/astropy-learn/{meta['source']}"
+cfg["sphinx"]["config"]["html_theme_options"]["repository_url"] = f"https://github.com/astropy-learn/{meta['source']}"
 
 # add a button to launch notebook on Binder
 # cfg["launch_buttons"]["binderhub_url"] = (

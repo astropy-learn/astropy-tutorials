@@ -3,20 +3,36 @@ author:
 logo: logo.svg
 execute:
   execute_notebooks: force
-repository:
-  url:
-  branch: main/
-html:
-  use_repository_button: true
-  use_issues_button: true
-  use_edit_page_button: true
-  analytics:
-    google_analytics_id: "G-ZBXC3EFGGJ"
-launch_buttons:
-  notebook_interface: jupyterlab
-  thebe: true
+# repository:
+#   url:
+#   branch: main
+# html:
+#   use_repository_button: true
+#   use_issues_button: true
+#   use_edit_page_button: true
+#   home_page_in_navbar: true
+#   analytics:
+#     google_analytics_id: "G-ZBXC3EFGGJ"
+# launch_buttons:
+#   notebook_interface: jupyterlab
+#   thebe: true
 sphinx:
   config:
     html_show_copyright: false
     nb_execution_raise_on_error: true # raise error if a notebook cell fails to execute
     nb_execution_timeout: 600 # max time [s] to wait for a cell to execute; raises error if exceeded
+    html_theme_options: 
+      use_repository_button: true
+      use_issues_button: true
+      use_edit_page_button: true 
+      home_page_in_navbar: true      
+      analytics:
+        google_analytics_id: "G-ZBXC3EFGGJ"      
+      launch_buttons: 
+        notebook_interface: jupyterlab
+        thebe: true
+      repository_url: 
+      repository_branch: main        
+      logo:
+        link: "https://learn.astropy.org"
+        alt_text: "Learn Astropy"
