@@ -17,6 +17,7 @@ def run_command(command, verbose=1):
         print(f"Output: {result.stdout}")
     return result
 
+
 notebooks = glob.glob("*.ipynb")
 if len(notebooks) > 1:
     print("More than one .ipynb notebook found --> assuming this is a book")
@@ -28,7 +29,7 @@ if len(notebooks) > 1:
     # copy build outputs to 'html' dir
     command = ["cp", "-r", "_build/html", "html"]
     run_command(command)
-    
+
 else:
     # build single notebook
     command = ["jb", "build", f"{slug}.ipynb", "--config", "_config.yml"]
