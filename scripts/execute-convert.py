@@ -10,7 +10,7 @@ def run_command(command, verbose=1):
         result = subprocess.run(command, check=True, capture_output=True, text=True)
     except (
         subprocess.CalledProcessError
-    ) as e:  # Catching the error if the command fails
+    ) as e:
         print(f"Error building book: {e.stderr}")
         sys.exit(1)
     if verbose > 0:
