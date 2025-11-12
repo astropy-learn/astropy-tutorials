@@ -17,11 +17,6 @@ cfg["sphinx"]["config"]["html_theme_options"]["repository_url"] = (
     f"https://github.com/astropy-learn/{meta['source']}"
 )
 
-# add a button to launch notebook on Binder
-# cfg["launch_buttons"]["binderhub_url"] = (
-#     f"https://mybinder.org/v2/gh/astropy-learn/{meta['source']}/main?urlpath=%2Fdoc%2Ftree%2F{meta['slug']}.ipynb"
-# )
-
 # save populated '_config.yml' in the target repo
 with open("_config.yml", "w") as f:
     cfg = yaml.dump(cfg, stream=f, default_flow_style=False, sort_keys=False)
