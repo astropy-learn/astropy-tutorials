@@ -23,7 +23,7 @@ if len(notebooks) > 1:
     print("More than one .ipynb notebook found --> assuming this is a book")
 
     # build book
-    command = ["jb", "build", ".", "--config", "_config.yml", "--toc", "_toc.yml"]
+    command = ["python", "-m", "jupyter_book", "build", ".", "--config", "_config.yml", "--toc", "_toc.yml"]
     run_command(command)
 
     # copy build outputs to 'html' dir
@@ -32,7 +32,7 @@ if len(notebooks) > 1:
 
 else:
     # build single notebook
-    command = ["jb", "build", f"{slug}.ipynb", "--config", "_config.yml"]
+    command = ["python", "-m", "jupyter_book", "build", f"{slug}.ipynb", "--config", "_config.yml"]
     run_command(command)
 
     # copy build outputs to 'html' dir
