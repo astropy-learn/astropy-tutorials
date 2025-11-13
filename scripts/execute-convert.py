@@ -27,8 +27,6 @@ if len(notebooks) > 1:
         "jupyter_book",
         "build",
         ".",
-        "--config",
-        "_config.yml",
         "--toc",
         "_toc.yml",
     ]
@@ -46,8 +44,6 @@ else:
         "jupyter_book",
         "build",
         f"{slug}.ipynb",
-        "--config",
-        "_config.yml",
     ]
     run_command(command)
 
