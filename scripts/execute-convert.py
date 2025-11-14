@@ -22,9 +22,7 @@ if len(notebooks) > 1:
 
     # build book
     command = [
-        "python",
-        "-m",
-        "jupyter_book",
+        "jb",
         "build",
         "--config",
         "_config.yml",
@@ -41,9 +39,7 @@ if len(notebooks) > 1:
 else:
     # build single notebook
     command = [
-        "python",
-        "-m",
-        "jupyter_book",
+        "jb",
         "build",
         "--config",
         "_config.yml",
