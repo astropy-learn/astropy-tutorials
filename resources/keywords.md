@@ -1,67 +1,67 @@
 # Astropy package keywords
-astroquery
-coordinates
-astroplan
-reproject
-table
-spectral cube
 aplpy
-imexam
-specutils
-photutils
-wcs
-units
-time
-synphot
-dust extinction
-modeling
+astroplan
+astroquery
 convolution
+coordinates
+dust extinction
 gala
+imexam
+modeling
+photutils
+reproject
+spectral cube
+specutils
+synphot
+table
+time
+units
 vo conesearch
+wcs
 
 # Python package keywords
+dask
 matplotlib
 numpy
 scipy
-dask
 
 # Task keywords
+colorbar
 contour plots
 data cubes
+error bars
+file input/output
 FITS
+histogram
 image analysis
 image manipulation
+LaTeX
 model fitting
-file input/output
-histogram
-error bars
+modular code
 OOP
+photometry
+pv diagram
+scalebar
 scatter plots
+Simbad
 spectroscopy
 time series
 units
 Vizier
-photometry
-colorbar
-LaTeX
-modular code
-Simbad
-scalebar
-pv diagram
 
 # Science keywords
 astrodynamics
-stellar photometry
-stellar physics
-radio astronomy
+astrometry
 astrostatistics
-x-ray astronomy
+extinction
 galactic astronomy
 galaxy dynamics
-stellar evolution
-physics
-observational astronomy
-astrometry
-extinction
-polarimetry
 IR and optical astronomy
+observational astronomy
+physics
+polarimetry
+radio astronomy
+stellar evolution
+stellar photometry
+stellar physics
+x-ray astronomy
