@@ -11,6 +11,7 @@ For developers, this repo also contains scripts and resources used across all tu
 ## Tutorials build status
 - astropy-coordinates [![Build notebook](https://github.com/astropy-learn/tutorial--astropy-coordinates/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--astropy-coordinates/actions/workflows/build.yml)
 - astropy-modeling [![Build notebook](https://github.com/astropy-learn/tutorial--astropy-modeling/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--astropy-modeling/actions/workflows/build.yml)
+- catalog-overlay-on-fits [![Build notebook](https://github.com/astropy-learn/tutorial--catalog-overlay-on-fits/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--catalog-overlay-on-fits/actions/workflows/build.yml)
 - color-excess [![Build notebook](https://github.com/astropy-learn/tutorial--color-excess/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--color-excess/actions/workflows/build.yml)
 - FITS-cubes [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-cubes/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-cubes/actions/workflows/build.yml)
 - FITS-header [![Build notebook](https://github.com/astropy-learn/tutorial--FITS-header/actions/workflows/build.yml/badge.svg)](https://github.com/astropy-learn/tutorial--FITS-header/actions/workflows/build.yml)
