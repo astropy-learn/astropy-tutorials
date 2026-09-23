@@ -1,6 +1,6 @@
+import glob
 import subprocess
 import sys
-import glob
 
 slug = sys.argv[1]
 
